@@ -1,0 +1,18 @@
+name: SMP
+author: leuo
+main: xyz.leuo.smp.SMP
+version: ${project.version}
+description: ${project.description}
+api-version: 1.16
+
+commands:
+  chests:
+    description: Shows all of the locked chests you have access to.
+  coordinates:
+    aliases: [coords, tl]
+    description: Shared your coordinates with the whole server or a target.
+  recipes:
+    aliases: [craftinghelp]
+    description: Shows all custom recipes from this plugin.
+  track:
+    description: Track a certain location.
